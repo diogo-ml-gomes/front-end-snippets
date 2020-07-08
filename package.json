@@ -2,16 +2,16 @@
     "name": "front-end-snippets",
     "displayName": "Front-end Snippets",
     "description": "front-end snippets that includes outsystems css vendor prefixes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "diogo-ml-gomes",
-	"author": {
-		"name": "Diogo Gomes",
-		"email": "diogo.gomes@dgomes.pt",
-		"url": "https://github.com/diogo-ml-gomes"
-	},
+    "author": {
+        "name": "Diogo Gomes",
+        "email": "diogo.gomes@dgomes.pt",
+        "url": "https://github.com/diogo-ml-gomes"
+    },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/diogo-ml-gomes/front-end-snippets.git"
+        "type": "git",
+        "url": "https://github.com/diogo-ml-gomes/front-end-snippets.git"
     },
     "engines": {
         "vscode": "^1.0.0"
@@ -20,10 +20,10 @@
         "Snippets",
         "Other"
     ],
-	"activationEvents": [
-		"onCommand:front-end-snippets.fes-version"
-	],
-	"main": "./commands/commands.js",
+    "activationEvents": [
+        "onCommand:front-end-snippets.fes-version"
+    ],
+    "main": "./commands/commands.js",
     "contributes": {
         "commands": [
             {
@@ -58,12 +58,12 @@
             }
         ]
     },
-	"keywords": [
-		"snippets",
+    "keywords": [
+        "snippets",
         "outsystems",
         "front end",
         "frontend",
         "fontawesome",
         "font awesome"
-	]
+    ]
 }
