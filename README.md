@@ -30,7 +30,7 @@ $ git clone https://github.com/diogo-ml-gomes/front-end-snippets.git
 
 ## Commands 
 
-### Plugin Version:
+### Extension Version:
 
  - Press `Ctrl + Shift + P` to call the command pallete 
  - Type *"FESV"*, enough to get *"Front End Snippets: Version"* name in list
