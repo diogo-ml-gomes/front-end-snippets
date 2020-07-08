@@ -1,0 +1,63 @@
+{
+    "name": "front-end-snippets",
+    "displayName": "Front-end Snippets for CSS",
+    "description": "front-end snippets that include outsystems css vendor prefixes",
+    "version": "1.0.0",
+    "publisher": "diogo_ml_gomes",
+	"author": {
+		"name": "Diogo Gomes",
+		"email": "diogo.gomes@dgomes.pt",
+		"url": "https://github.com/diogo-ml-gomes"
+	},
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+	"activationEvents": [
+		"onCommand:front-end-snippets.fes-version"
+	],
+	"main": "./commands/commands.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "front-end-snippets.fes-version",
+                "title": "Front-end Snippets: Version"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/font-awesome.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/font-awesome.code-snippets"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/font-awesome.code-snippets"
+            }
+        ]
+    },
+	"keywords": [
+		"snippets",
+        "outsystems",
+        "front end",
+        "frontend"
+	]
+}

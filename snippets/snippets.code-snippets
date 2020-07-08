@@ -1,0 +1,12 @@
+{	
+	"OutSystems Service Studio Prefix": {
+		"scope": "css,scss,less,sass",
+		"prefix": ["-ss-", "-servicestudio-"],
+		"body": "-servicestudio-${1:parameter}: ${2:value};"
+	},
+	"CSS Variable": {
+		"scope": "css,scss,less,sass",
+		"prefix": "var",
+		"body": "var(${0:variable})"
+	}
+}
