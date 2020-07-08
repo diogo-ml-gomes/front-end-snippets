@@ -6,7 +6,7 @@ Front end snippets offers a bunch of style snippets such as css var function, ou
 
 ### Extension Marketplace
 
-> coming soon...
+You can install the extension from the marketplace inside Visual Studio Code or from [here](https://marketplace.visualstudio.com/items?itemName=diogo-ml-gomes.front-end-snippets).
 
 ### Clone Repository
 Change to your Visual Studio Code extensions directory:
