@@ -8,5 +8,40 @@
 		"scope": "css,scss,less,sass",
 		"prefix": "var",
 		"body": "var(${0:variable})"
+	},
+	"CSS Clamp Function": {
+		"scope": "css,scss,less,sass",
+		"prefix": "clamp",
+		"body": "clamp(${1:minimum},${2:intermediate},${3:maximum})"
+	},
+	"Before pseudo-element": {
+		"scope": "css,scss,less,sass",
+		"prefix": ":before",
+		"body": [
+			":before {",
+			"  content: '';",
+			"  position: absolute;",
+			"  top: 0;",
+			"  left: 0;",
+			"  width: 100%;",
+			"  height: 100%;",
+			"  ${0}",
+			"};"
+		]
+	},
+	"After pseudo-element": {
+		"scope": "css,scss,less,sass",
+		"prefix": ":after",
+		"body": [
+			":after {",
+			"  content: '';",
+			"  position: absolute;",
+			"  top: 0;",
+			"  left: 0;",
+			"  width: 100%;",
+			"  height: 100%;",
+			"  ${0}",
+			"};"
+		]
 	}
 }
